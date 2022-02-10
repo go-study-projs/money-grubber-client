@@ -1,14 +1,14 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Money from '@/views/Money.vue';
-import Labels from '@/views/Labels.vue';
-import Chart from '@/views/Chart.vue';
-import Statistics from '@/views/Statistics.vue';
-import NotFound from '@/views/NotFound.vue';
-import EditRecord from '@/views/EditRecord.vue';
-import AddTag from '@/views/AddTag.vue';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Money from '@/views/Money.vue'
+import Labels from '@/views/Labels.vue'
+import Chart from '@/views/Chart.vue'
+import Statistics from '@/views/Statistics.vue'
+import NotFound from '@/views/NotFound.vue'
+import EditRecord from '@/views/EditRecord.vue'
+import AddTag from '@/views/AddTag.vue'
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 const routes = [
   {
@@ -43,10 +43,10 @@ const routes = [
     path: '*',
     component: NotFound
   }
-];
+]
 
 const router = new VueRouter({
   routes
-});
+})
 
-export default router;
+export default router

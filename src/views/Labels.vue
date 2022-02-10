@@ -3,11 +3,9 @@
 </template>
 
 <script lang="ts">
-  export default {
-    name: 'Labels'
-  };
+export default {
+  name: 'Labels'
+}
 </script>
 
-<style scoped lang="SCSS">
-
-</style>
+<style scoped lang="SCSS"></style>
